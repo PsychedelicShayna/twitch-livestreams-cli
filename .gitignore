@@ -1,0 +1,7 @@
+/*
+!source/twitch_stream_checker.rb
+!.gitignore
+!README.md
+!LICENSE
+*.json
+source/*.json
