@@ -127,7 +127,7 @@ ARGV.each_with_index do |argument, index|
 
   config_file = next_argument if ['--config-file', '-cf'].include?(argument) && File.exist?(next_argument)
   config_client_id = next_argument if ['--client-id', '-cid'].include?(argument)
-  config_client_secret = next_argument if ['--client-secret', '-cs'].include(argument)
+  config_client_secret = next_argument if ['--client-secret', '-cs'].include?(argument)
   config_streamer_names = next_argument.split(';') if ['--streamers', '-s'].include?(argument)
 end
 
