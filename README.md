@@ -2,7 +2,7 @@
 This is a simple Ruby script that retrieves the current livestream metadata of any given list of streamers. This script requires a Twitch API client id and secret to function, neither of which are included. You can find out how to get your own client id and secret by checking out the Twitch API docs : https://dev.twitch.tv/docs/authentication#registration
 
 This script requires the colorize gem in order to colorize the output (mandatory).
-![](screenshots/1.png?raw=true)
+![](screenshots/screenshot1.png?raw=true)
 
 ## Config
 While command line arguments are a way to give required info, you should ideally be using the json config file. You can generate a new config file using `--new-config-file`.
