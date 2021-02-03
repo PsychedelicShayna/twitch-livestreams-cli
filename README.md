@@ -3,7 +3,7 @@ This is a simple Ruby script that retrieves the current livestream metadata of a
 
 ## Config
 While command line arguments are a way to give required info, you should ideally be using the json config file. You can generate a new config file using `--new-config-file`.
-```
+```json
 {
     "client_id": "",
     "client_secret": "",
