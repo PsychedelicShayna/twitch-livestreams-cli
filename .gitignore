@@ -2,6 +2,7 @@
 *.json
 
 !source/
+!screenshots/
 
 !.gitignore
 !README.md
